@@ -15,6 +15,7 @@
 		18A5914B1D23B166007B2ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A591491D23B166007B2ACB /* LaunchScreen.storyboard */; };
 		18A591561D23B166007B2ACB /* HGRunTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A591551D23B166007B2ACB /* HGRunTimeDemoTests.m */; };
 		18A591611D23B166007B2ACB /* HGRunTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A591601D23B166007B2ACB /* HGRunTimeDemoUITests.m */; };
+		18C083D91D2B8EA500EB1E27 /* UIButton+HGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C083D81D2B8EA500EB1E27 /* UIButton+HGButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18A5915C1D23B166007B2ACB /* HGRunTimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGRunTimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A591601D23B166007B2ACB /* HGRunTimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGRunTimeDemoUITests.m; sourceTree = "<group>"; };
 		18A591621D23B166007B2ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C083D71D2B8EA500EB1E27 /* UIButton+HGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HGButton.h"; sourceTree = "<group>"; };
+		18C083D81D2B8EA500EB1E27 /* UIButton+HGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HGButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18A5913F1D23B166007B2ACB /* AppDelegate.m */,
 				18A591411D23B166007B2ACB /* ViewController.h */,
 				18A591421D23B166007B2ACB /* ViewController.m */,
+				18C083D71D2B8EA500EB1E27 /* UIButton+HGButton.h */,
+				18C083D81D2B8EA500EB1E27 /* UIButton+HGButton.m */,
 				18A591441D23B166007B2ACB /* Main.storyboard */,
 				18A591471D23B166007B2ACB /* Assets.xcassets */,
 				18A591491D23B166007B2ACB /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				18A591431D23B166007B2ACB /* ViewController.m in Sources */,
 				18A591401D23B166007B2ACB /* AppDelegate.m in Sources */,
+				18C083D91D2B8EA500EB1E27 /* UIButton+HGButton.m in Sources */,
 				18A5913D1D23B166007B2ACB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				18A591671D23B166007B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A591681D23B166007B2ACB /* Build configuration list for PBXNativeTarget "HGRunTimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				18A5916A1D23B166007B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A5916B1D23B166007B2ACB /* Build configuration list for PBXNativeTarget "HGRunTimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				18A5916D1D23B166007B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

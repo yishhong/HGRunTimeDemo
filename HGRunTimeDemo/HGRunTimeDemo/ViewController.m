@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
+#import "UIButton+HGButton.h"
 
 @interface ViewController ()
+
+@property(copy,nonatomic)NSString * string;
+
+@property(strong,nonatomic)UIButton *hgButton;
 
 @end
 
@@ -16,7 +22,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIButton * hgButton =[[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 40) callback:^(UIButton *button) {
+        
+    }];
+    hgButton.backgroundColor =[UIColor redColor];
+    [hgButton setTitle:@"hello" forState:UIControlStateNormal];
+    [self.view addSubview:hgButton];
+    self.hgButton =hgButton;
+    [self writeValue];
     
+}
+
+-(void)writeValue{
+
 }
 
 - (void)didReceiveMemoryWarning {
